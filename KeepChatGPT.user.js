@@ -1130,10 +1130,6 @@ nav.flex div.overflow-y-auto {
         if (location.href.match(/https:\/\/chat\.openai\.com\/\??/) && gv("k_cleanlyhome", false) === true) {
             if ($("main h1") && $("main h1").innerText.match(/^ChatGPT(\nPLUS)?$/)) {
                 $("main h1").classList.add('text-gray-200');
-                const nSpan = document.createElement('span');
-                nSpan.className = 'bg-yellow-200 text-yellow-900 py-0.5 px-1.5 text-xs md:text-sm rounded-md uppercase';
-                nSpan.textContent = `KEEP`;
-                $("main h1").appendChild(nSpan);
             }
             if ($("main h2") && $("main h2").innerText === "Examples") {
                 $("main h2").parentElement.parentElement.remove();
