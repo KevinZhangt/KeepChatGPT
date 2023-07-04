@@ -715,7 +715,7 @@
             }
         };
         const icon = GM_info.script.icon ? GM_info.script.icon : `${GM_info.script.namespace}raw/main/assets/logo.svg`;
-        ndivkcg._symbol1_innerHTML = `Keep${ndivkcg.id.slice(1,2).toUpperCase()}hatGPT`;
+        ndivkcg._symbol1_innerHTML = `<img src='${icon}' />Keep${ndivkcg.id.slice(1,2).toUpperCase()}hatGPT`;
         ndivkcg._symbol2_innerHTML = `KeepChatGPT`;
 
         if ($(symbol1_selector)) {
