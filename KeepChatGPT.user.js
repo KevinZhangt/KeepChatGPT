@@ -698,7 +698,7 @@
 
         const ndivkcg = document.createElement("div");
         ndivkcg.id = "kcg";
-        ndivkcg.setAttribute("class", "kgold shine flex py-3 px-3 items-center gap-3 rounded-md text-sm mb-1 flex-shrink-0 border border-white/20");
+        ndivkcg.setAttribute("class", "flex py-1 px-3 items-center gap-3 rounded-md text-sm mb-1 flex-shrink-0 border border-white/20");
 
         const ndivmenu = $(".kmenu");
         ndivkcg.onmouseover = ndivmenu.onmouseover = function() {
@@ -715,7 +715,7 @@
             }
         };
         const icon = GM_info.script.icon ? GM_info.script.icon : `${GM_info.script.namespace}raw/main/assets/logo.svg`;
-        ndivkcg._symbol1_innerHTML = `<img src='${icon}' />Keep${ndivkcg.id.slice(1,2).toUpperCase()}hatGPT`;
+        ndivkcg._symbol1_innerHTML = `Keep${ndivkcg.id.slice(1,2).toUpperCase()}hatGPT`;
         ndivkcg._symbol2_innerHTML = `KeepChatGPT`;
 
         if ($(symbol1_selector)) {
