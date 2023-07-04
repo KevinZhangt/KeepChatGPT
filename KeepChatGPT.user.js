@@ -684,13 +684,9 @@
         if (kcg_html !== undefined) {
             if ($(symbol1_selector)) {
                 kcg_html.innerHTML = kcg_html._symbol1_innerHTML;
-                kcg_html.style.transform = "scale(0.8)";
-
                 symbol_prt = findParent($(symbol1_selector), "nav.flex", 3);
             } else if ($(symbol2_selector)) {
                 kcg_html.innerHTML = kcg_html._symbol2_innerHTML;
-                kcg_html.style.transform = "scale(0.8)";
-
                 symbol_prt = findParent($(symbol2_selector), ".sticky", 2);
             }
             symbol_prt.insertBefore(kcg_html, symbol_prt.childNodes[0]);
