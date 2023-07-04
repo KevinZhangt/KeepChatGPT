@@ -684,9 +684,13 @@
         if (kcg_html !== undefined) {
             if ($(symbol1_selector)) {
                 kcg_html.innerHTML = kcg_html._symbol1_innerHTML;
+                kcg_html.style.transform = "scale(0.8)";
+
                 symbol_prt = findParent($(symbol1_selector), "nav.flex", 3);
             } else if ($(symbol2_selector)) {
                 kcg_html.innerHTML = kcg_html._symbol2_innerHTML;
+                kcg_html.style.transform = "scale(0.8)";
+
                 symbol_prt = findParent($(symbol2_selector), ".sticky", 2);
             }
             symbol_prt.insertBefore(kcg_html, symbol_prt.childNodes[0]);
@@ -715,8 +719,8 @@
             }
         };
         const icon = GM_info.script.icon ? GM_info.script.icon : `${GM_info.script.namespace}raw/main/assets/logo.svg`;
-        ndivkcg._symbol1_innerHTML = `<img src='${icon}' />Keep${ndivkcg.id.slice(1,2).toUpperCase()}hatGPT by x${ndivkcg.id.slice(1,2)}anwin`;
-        ndivkcg._symbol2_innerHTML = `Keep${ndivkcg.id.slice(1,2).toUpperCase()}hatGPT`;
+        ndivkcg._symbol1_innerHTML = `<img src='${icon}' />Keep${ndivkcg.id.slice(1,2).toUpperCase()}hatGPT`;
+        ndivkcg._symbol2_innerHTML = `KeepChatGPT`;
 
         if ($(symbol1_selector)) {
             ndivkcg.innerHTML = ndivkcg._symbol1_innerHTML;
@@ -749,22 +753,6 @@
     100%{background-color:#F0B27A;}
 }
 
-.shine::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(
-        to bottom right,
-        rgba(255, 255, 255, 0.3),
-        rgba(255, 255, 255, 0.15),
-        rgba(255, 255, 255, 0)
-    );
-    transform: rotate(-45deg);
-    animation: shine 2.8s linear infinite;
-}
 @keyframes shine {
     from {
         transform: translateX(-50%) translateY(-50%) rotate(-45deg);
