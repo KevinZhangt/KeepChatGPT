@@ -3,10 +3,10 @@
 // @description       这是一个ChatGPT的畅聊与增强插件。开源免费。不仅能解决所有报错不再刷新，还有保持活跃、取消审计、克隆对话、净化首页、展示大屏、展示全屏、言无不尽、拦截跟踪、日新月异等多个高级功能。让我们的AI体验无比顺畅、丝滑、高效、简洁。解决的报错如下: (1) NetworkError when attempting to fetch resource. (2) Something went wrong. If this issue persists please contact us through our help center at help.openai.com. (3) Conversation not found. (4) This content may violate our content policy.
 // @version           15.9
 // @author            xcanwin
-// @namespace         https://github.com/xcanwin/KeepChatGPT/
-// @supportURL        https://github.com/xcanwin/KeepChatGPT/
-// @updateURL         https://raw.githubusercontent.com/xcanwin/KeepChatGPT/main/KeepChatGPT.user.js
-// @downloadURL       https://raw.githubusercontent.com/xcanwin/KeepChatGPT/main/KeepChatGPT.user.js
+// @namespace         https://github.com/KevinZhangt/KeepChatGPT
+// @supportURL        https://github.com/KevinZhangt/KeepChatGPT
+// @updateURL         https://github.com/KevinZhangt/KeepChatGPT/raw/main/KeepChatGPT.user.js
+// @downloadURL       https://github.com/KevinZhangt/KeepChatGPT/raw/main/KeepChatGPT.user.js
 // @description:ar    هذا هو إضافة ChatGPT للدردشة السلسة. مفتوح المصدر ومجاني. ليس فقط يمكن حل جميع الأخطاء دون إعادة التحميل، ولكن لديه أيضًا مجموعة من الميزات المتقدمة مثل البقاء نشطًا، وإلغاء التدقيق، واستنساخ المحادثات، وتنقية الصفحة الرئيسية، وعرض الشاشة الكبيرة، وعرض الشاشة الكاملة، وغيرها الكثير. تجعل تجربة الذكاء الاصطناعي لدينا سلسة وسلسة وفعالة ومبسطة.
 // @description:bg    Това е разширение ChatGPT за безпроблемно чатиране. Отворен код и безплатен. Не само може да реши всички грешки без да се презареди, но също така предлага набор от напреднали функции като задържане на активност, отмяна на одита, клониране на разговори, почистване на началната страница, показване на голям екран, показване на цял екран и други. Нека опитът ни с изкуствен интелект бъде изключително гладък, ефективен и семпъл.
 // @description:cs    Toto je plugin ChatGPT pro plynulý chatování. Open-source a zdarma. Nejenže dokáže vyřešit veškeré chyby bez nutnosti obnovení, ale nabízí také řadu pokročilých funkcí, jako je udržování aktivity, zrušení auditu, klonování konverzací, vyčištění úvodní stránky, zobrazení na velké obrazovce, zobrazení na celou obrazovku a mnoho dalšího. Umožněte nám, aby naše zkušenost s umělou inteligencí byla bezproblémová, hladká, efektivní a jednoduchá.
